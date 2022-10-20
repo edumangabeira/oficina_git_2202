@@ -16,7 +16,7 @@ Row
 ### Contact Rate
 
 ```{r}
-rate <- 7
+rate <- 8
 gauge(rate, min = 0, max = 100, symbol = '%', gaugeSectors(
   success = c(80, 100), warning = c(40, 79), danger = c(0, 39)
 ))
