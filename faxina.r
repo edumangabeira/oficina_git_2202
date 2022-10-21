@@ -1,3 +1,4 @@
+library(tidyr)
 limpa_dados <- function(dataframe){
-    return dataframe.drop_na()
+    return (drop_na(dataframe))
 }
